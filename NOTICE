@@ -1,0 +1,8 @@
+sbt-banner
+Copyright (c) 2025 Philippus Baalman
+This software is subject to the included LICENSE file.
+
+sbt-banner contains code from banana, licensed under an MIT license.
+yihleego/banana - https://github.com/yihleego/banana
+Copyright (c) 2022-2025 Leego Yih
+License - https://github.com/yihleego/banana/blob/main/LICENSE

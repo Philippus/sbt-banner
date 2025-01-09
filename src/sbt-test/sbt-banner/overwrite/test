@@ -1,0 +1,4 @@
+> bannerGenerate
+> set bannerText := "ab"
+> bannerGenerate
+> check
