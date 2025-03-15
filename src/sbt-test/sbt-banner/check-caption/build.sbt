@@ -1,7 +1,7 @@
 scalaVersion := "2.13.15"
 
-bannerText := "a"
-bannerCaption := Some("Powered by sbt-banner")
+bannerText      := "a"
+bannerCaption   := Some("Powered by sbt-banner")
 bannerOverwrite := true
 
 import sbt._

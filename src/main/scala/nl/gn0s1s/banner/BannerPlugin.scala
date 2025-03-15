@@ -30,7 +30,9 @@ object BannerPlugin extends AutoPlugin {
     bannerCaption   := None,
     bannerOverwrite := false,
     Compile / resourceGenerators += bannerGenerate.taskValue,
-    bannerGenerate  := bannerGenerate.triggeredBy(Compile / compile).value // trick to generate the resource on compile, see https://github.com/sbt/sbt/issues/1832
+    bannerGenerate  := bannerGenerate.triggeredBy(
+      Compile / compile
+    ).value // trick to generate the resource on compile, see https://github.com/sbt/sbt/issues/1832
   )
 
   private def generateBanner(text: String, caption: Option[String], overwrite: Boolean, file: File): Seq[File] =
