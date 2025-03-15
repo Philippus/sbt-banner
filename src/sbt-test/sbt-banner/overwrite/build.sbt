@@ -1,6 +1,6 @@
 scalaVersion := "2.13.15"
 
-bannerText := "a"
+bannerText      := "a"
 bannerOverwrite := true
 
 import sbt._
