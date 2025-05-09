@@ -17,7 +17,7 @@ enablePlugins(SbtPlugin)
 libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.3" % Test
 
 scalaVersion := "2.12.20"
-crossScalaVersions += "3.6.4"
+crossScalaVersions += "3.7.0"
 
 pluginCrossBuild / sbtVersion := {
   scalaBinaryVersion.value match {
