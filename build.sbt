@@ -16,7 +16,7 @@ enablePlugins(SbtPlugin)
 
 libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.3" % Test
 
-scalaVersion := "2.12.20"
+scalaVersion := "2.12.21"
 crossScalaVersions += "3.7.4"
 
 pluginCrossBuild / sbtVersion := {
