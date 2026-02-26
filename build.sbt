@@ -17,7 +17,7 @@ enablePlugins(SbtPlugin)
 libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.3" % Test
 
 scalaVersion := "2.12.21"
-crossScalaVersions += "3.8.1"
+crossScalaVersions += "3.8.2"
 
 scalacOptions ++= {
   scalaBinaryVersion.value match {
