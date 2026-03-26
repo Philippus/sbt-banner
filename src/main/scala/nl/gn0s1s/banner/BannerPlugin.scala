@@ -11,10 +11,10 @@ object BannerPlugin extends AutoPlugin {
   override def trigger = allRequirements
 
   object autoImport {
-    val bannerGenerate       = taskKey[Seq[File]]("Generate the banner")
-    lazy val bannerText      = settingKey[String]("The banner text")
-    lazy val bannerCaption   = settingKey[Option[String]]("The banner caption")
-    lazy val bannerOverwrite = settingKey[Boolean]("Enable overwriting the banner file")
+    @transient val bannerGenerate = taskKey[Seq[File]]("Generate the banner")
+    lazy val bannerText           = settingKey[String]("The banner text")
+    lazy val bannerCaption        = settingKey[Option[String]]("The banner caption")
+    lazy val bannerOverwrite      = settingKey[Boolean]("Enable overwriting the banner file")
   }
 
   import autoImport.*
