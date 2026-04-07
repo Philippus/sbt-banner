@@ -29,7 +29,7 @@ scalacOptions ++= {
 pluginCrossBuild / sbtVersion := {
   scalaBinaryVersion.value match {
     case "2.12" => "1.10.7"
-    case _      => "2.0.0-RC10"
+    case _      => "2.0.0-RC11"
   }
 }
 
