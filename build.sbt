@@ -1,14 +1,14 @@
 name         := "sbt-banner"
 organization := "nl.gn0s1s"
 startYear    := Some(2025)
-homepage     := Some(url("https://github.com/philippus/sbt-banner"))
-licenses += ("MPL-2.0", url("https://www.mozilla.org/MPL/2.0/"))
+homepage     := Some(uri("https://github.com/philippus/sbt-banner"))
+licenses += ("MPL-2.0", uri("https://www.mozilla.org/MPL/2.0/"))
 developers   := List(
   Developer(
     id = "philippus",
     name = "Philippus Baalman",
     email = "",
-    url = url("https://github.com/philippus")
+    url = uri("https://github.com/philippus")
   )
 )
 
